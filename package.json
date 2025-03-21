@@ -11,11 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "method-override": "^3.0.0",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9",
+    "sqlite3": "^5.1.7"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iLeandroo/AulaServerJs.git"
@@ -24,5 +27,6 @@
     "url": "https://github.com/iLeandroo/AulaServerJs/issues"
   },
   "homepage": "https://github.com/iLeandroo/AulaServerJs#readme",
-  "description": ""
+  "description": "",
+  "type": "commonjs"
 }
